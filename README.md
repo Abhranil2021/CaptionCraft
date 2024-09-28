@@ -37,12 +37,24 @@ based on the fact that a longer LCS implies more similarity between the two capt
 
 More details about the metric can be found at: https://medium.com/nlplanet/two-minutes-nlp-learn-the-rouge-metric-by-examples-f179cc285499
 
+### Training Details
+
+Trained the model for 5 epochs. Used a learning rate of 5e-5 and a batch size of 8.
+
 ### Libraries Used
 
 1) Pytorch for handling tensors
 2) ImageIO for loading and pre-processing images
 3) Torchvision for transforms and dataset creation
 4) Transformers for loading ViT, GPT2 models as well as Seq2SeqTrainer for end-to-end fine-tuning
+5) Gradio for deployment
+
+### Results
+
+The model attained a validation loss of 1.72 after 5 epochs, and a ROUGE-L score of 0.32
+
+
+
 
 
 
