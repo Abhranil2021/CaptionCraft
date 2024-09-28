@@ -47,7 +47,6 @@ Trained the model for 5 epochs. Used a learning rate of 5e-5 and a batch size of
 2) ImageIO for loading and pre-processing images
 3) Torchvision for transforms and dataset creation
 4) Transformers for loading ViT, GPT2 models as well as Seq2SeqTrainer for end-to-end fine-tuning
-5) Gradio for deployment
 
 ## Results
 
