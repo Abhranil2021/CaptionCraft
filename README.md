@@ -51,7 +51,7 @@ Trained the model for 5 epochs. Used a learning rate of 5e-5 and a batch size of
 
 ## Results
 
-The model attained a validation loss of 1.72 after 5 epochs, and a ROUGE-L score of 0.32
+The model attained a validation loss of 1.72 after 5 epochs, and a ROUGE-L score of 0.28 on the validation split (20% of the original data)
 
 
 
